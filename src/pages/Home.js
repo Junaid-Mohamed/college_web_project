@@ -13,8 +13,8 @@ export default function Home() {
       <label for="menu-bar" class="fas fa-bars"></label>
 
       <nav class="navbar">
-        <Link to='/'>Home</Link>
         {/* <Link to='/'>Home</Link> */}
+        <a href="#home">Home</a>
         <a href="#services">services</a>
         <a href="#about">about</a>
         <a href="#team">our team</a>
@@ -67,7 +67,7 @@ export default function Home() {
             the semester and subject, that are verified by the respective
             department HOD's.
           </p>
-          <Link to='/notes'>read more</Link>
+          <Link to='/notes' class='btn'>read more</Link>
           {/* <a href="Notes.html" class="btn">read more</a> */}
         </div>
 
@@ -78,7 +78,8 @@ export default function Home() {
             In this section students will have access to a visual representation
             of the course they are in with detailed information about each step.
           </p>
-          <a href="Roadmap.html" class="btn">read more</a>
+          <Link to='/roadmap' class='btn'>read more</Link>
+          {/* <a href="Roadmap.html" class="btn">read more</a> */}
         </div>
 
         <div class="box">

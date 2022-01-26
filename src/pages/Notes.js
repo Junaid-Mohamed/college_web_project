@@ -22,12 +22,12 @@ export default function Notes() {
 
     <div class="products-container">
       <div class="product" data-name="p-1">
-        <img src="../Image/Java-image.jpg" alt="" />
+        <img src="assests/Image/Java-image.jpg" alt="" />
         <h3>CS 5th semester Java Notes</h3>
       </div>
 
       <div class="product" data-name="p-2">
-        <img src="../Image/SE image.jpg" alt="" />
+        <img src="assests/Image/SE image.jpg" alt="" />
         <h3>CS 5th semester <br/> Software Enginnering Notes</h3>
       </div>
 
@@ -37,7 +37,7 @@ export default function Notes() {
   <div class="products-preview">
     <div class="preview" data-target="p-1">
       <i class="fas fa-times"></i>
-      <img src="../Image/Java-image.jpg" alt="" />
+      <img src="assests/Image/Java-image.jpg" alt="" />
       <h3>CS 5th semester Java Notes</h3>
       <div class="stars">
         <i class="fas fa-star"></i>
@@ -56,7 +56,7 @@ export default function Notes() {
 
     <div class="preview" data-target="p-2">
       <i class="fas fa-times"></i>
-      <img src="../Image/SE image.jpg" alt="" />
+      <img src="assests/Image/SE image.jpg" alt="" />
       <h3>CS 5th semester Software Enginnering Notes</h3>
       <div class="stars">
         <i class="fas fa-star"></i>
